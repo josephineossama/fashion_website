@@ -1,0 +1,48 @@
+.new-arrivals {
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+  }
+  
+  .new-arrivals h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .new-arrivals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  
+  .new-arrivals-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(25% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .new-arrivals-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .new-arrivals-item img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .new-arrivals-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .new-arrivals-item p {
+    font-size: 1.2em;
+    color: #333;
+  }

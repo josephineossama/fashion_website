@@ -1,0 +1,81 @@
+/* Container for the header */
+.Header {
+    display: flex;
+    justify-content:flex-end; 
+    margin-right: 8rem; 
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    
+  }
+  
+  
+  /* Right section (links) */
+  .header-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Distributes items evenly */
+    /* flex-wrap: wrap; Allows wrapping of links if needed */
+    gap: 30px; /* Space between links */
+  }
+  
+  /* Styling links */
+  .header-options a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+    padding: 5px 10px;
+  }
+  
+  .header-options a:hover {
+    text-decoration:underline;
+    text-decoration-color: yellow;
+  }
+  
+  /* Button Styling */
+  .header-button {
+    justify-content: flex-end;
+    flex: 1;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    display: flex;
+    
+  }
+  
+  .header-button button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .Header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .header-text {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .header-options {
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .header-button {
+      margin-top: 10px;
+      align-self: center;
+    }
+  }
+  

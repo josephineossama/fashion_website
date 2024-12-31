@@ -1,0 +1,50 @@
+.container {
+    width:82%; /* Adjust the width as needed */
+    height:43rem; /* Set the height */
+    display:flex; /* Enable flexbox layout */
+    background-color: #f0f0f0;
+    border-radius: 35px; /* Rounded corners */
+    flex-direction: column; /*el children hay-display bshakl vertically */
+    gap: 10px; /*Space between child elements*/
+    margin-top:2rem;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add space inside the container */
+  }
+
+
+  .explore-text {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    font-size: 70px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color:black; /* Adjust the text color */
+    gap: 0.1rem; /*Space between the words*/
+    margin-left:6rem; /* Move the text to the left */
+    margin-top: 6rem; /* Move the text down */
+
+  }
+  .explore-paragraph p {
+    margin-left:6rem; /* Move the text to the left */
+    display: flex;
+    font-size: 30px;
+  }
+  
+
+    /* Button Styling */
+    .shop-now-btn 
+    {
+      padding: 10px 20px;
+      width:15rem;
+      display: flex;
+      margin-left:6rem; /*Move the text to the left*/
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      background-color: black;
+      color: white;
+      border: none;
+      font-size: 30px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    
